@@ -35,6 +35,7 @@ public class Jegue implements Runnable{
         this.nome = nome;
     }
 
+    @Override
     public void run() {
         while (distancia < 100) {
             try {

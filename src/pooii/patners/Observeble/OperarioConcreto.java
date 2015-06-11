@@ -17,8 +17,7 @@ public class OperarioConcreto implements Operario{
     public OperarioConcreto(SireneConcreta o){
         this.objetoObservado=o;
         objetoObservado.adicionarObservador(this);
-    }
-        
+    }        
     
     public void atualizar(Sirene s) {
         if(s==objetoObservado){

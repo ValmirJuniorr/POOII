@@ -2,21 +2,21 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package pooii.patners;
+package pooii.patners.iterator;
+
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import pooii.classes.Empregado;
-import pooii.patners.*;
 
 
 /**
  *
  * @author ALUNOFAP
  */
-public class teste {
+public class ExecIterator {
 
     public static void main(String[] args) { 
         ArrayList<Empregado> empregados=new ArrayList<Empregado>();
@@ -28,7 +28,7 @@ public class teste {
             try {
                 next.setSalario(987.00);
             } catch (Exception ex) {
-                Logger.getLogger(teste.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(ExecIterator.class.getName()).log(Level.SEVERE, null, ex);
             }
             
         }

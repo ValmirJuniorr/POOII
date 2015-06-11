@@ -12,9 +12,9 @@ package pooii.patners.singleton;
 public class Config {
     private static Config config;
     
-    private Config(){
-        
+    private Config(){        
     }
+    
     public static Config getIstance(){
         if(config==null){
             config=new Config();
